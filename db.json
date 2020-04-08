@@ -1,0 +1,122 @@
+{
+    "header": {
+        "process_time": 0.018328845,
+        "messages": "Successfully Retrieve Order Data",
+        "reason": "",
+        "error_code": 0
+    },
+    "data": [
+        {
+            "fs_id": "13004",
+            "order_id": 43481289,
+            "is_cod_mitra": false,
+            "accept_partial": false,
+            "invoice_ref_num": "INV/20200110/XX/I/502",
+            "products": [
+                {
+                    "id": 15242279,
+                    "name": "Chitato Rasa Beef BBQ 35 gr isi 20 pcs",
+                    "quantity": 1,
+                    "notes": "",
+                    "weight": 0.004,
+                    "total_weight": 0.004,
+                    "price": 98784,
+                    "total_price": 98784,
+                    "currency": "Rp",
+                    "sku": "11550001",
+                    "is_wholesale" : true
+                }
+            ],
+            "products_fulfilled": [
+                {
+                    "product_id": 15242279,
+                    "quantity_deliver": 1,
+                    "quantity_reject": 0
+                }
+            ],
+            "device_type": "",
+            "buyer": {
+                "id": 8970588,
+                "name": "Dewi Shanty stagingmitrasatu",
+                "phone": "6281287304293",
+                "email": "pbs-dewi+stagingmitra01@tokopedia.com"
+            },
+            "shop_id": 479066,
+            "payment_id": 11687315,
+            "recipient": {
+                "name": "Dewi Shanty stagingmitrasatu",
+                "phone": "6287781138382",
+                "address": {
+                    "address_full": "jln.merauke merauke ok merauke merauke",
+                    "district": "Bekasi Timur",
+                    "city": "Kota Bekasi",
+                    "province": "Jawa Barat",
+                    "country": "Indonesia",
+                    "postal_code": "17111",
+                    "district_id": 2201,
+                    "city_id": 167,
+                    "province_id": 12,
+                    "geo": "-6.236595091005896,107.02394503121332"
+                }
+            },
+            "logistics": {
+                "shipping_id": 999,
+                "district_id": 0,
+                "city_id": 0,
+                "province_id": 0,
+                "geo": "",
+                "shipping_agency": "Custom Logistik",
+                "service_type": "Service Normal"
+            },
+            "amt": {
+                "ttl_product_price": 98784,
+                "shipping_cost": 0,
+                "insurance_cost": 0,
+                "ttl_amount": 98784,
+                "voucher_amount": 10000,
+                "toppoints_amount": 0
+            },
+            "dropshipper_info": {},
+            "voucher_info": {
+                "voucher_code": "TESEDIT",
+                "voucher_type": 10000000364
+            },
+            "order_status": 700,
+            "warehouse_id": 0,
+            "fulfill_by": 0,
+            "create_time": 1578671153,
+            "custom_fields": {
+                "awb": "CSDRRRRR502"
+            },
+            "promo_order_detail": {
+                "order_id": 43481289,
+                "total_cashback": 0,
+                "total_discount": 20000,
+                "summary_promo": [
+                    {
+                        "name": "http://internal-staging.tokopedia.",
+                        "is_coupon": false,
+                        "show_cashback_amount": true,
+                        "show_discount_amount": true,
+                        "cashback_amount": 0,
+                        "cashback_points": 0,
+                        "type": "discount",
+                        "discount_amount": 10000,
+                        "invoice_desc": "TESEDIT"
+                    },
+                    {
+                        "name": "http://internal-staging.tokopedia.",
+                        "is_coupon": false,
+                        "show_cashback_amount": true,
+                        "show_discount_amount": true,
+                        "cashback_amount": 0,
+                        "cashback_points": 0,
+                        "type": "discount",
+                        "discount_amount": 10000,
+                        "invoice_desc": "TESEDIT"
+                    }
+                ]
+            }
+        }
+    ]
+}
